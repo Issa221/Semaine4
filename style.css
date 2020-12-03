@@ -1,0 +1,35 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    background-color: rgb(252, 31, 31);
+    margin: 15px;
+}
+.bloc{
+    background-color: hotpink;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.droite{
+    justify-content: flex-end;
+}
+.centre{
+    justify-content: center;
+}
+.gauche {
+    justify-content: flex-start;
+}
+.espace{
+    justify-content: space-between;
+}
+.autour{
+    justify-content: space-around;
+}
+.egal{
+    justify-content: space-evenly;
+}
+.bloc img {
+    width: 50PX;
+    height: 50px;
+}
